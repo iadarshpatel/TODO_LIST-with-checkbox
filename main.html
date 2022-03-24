@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO LIST TASK</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">Add items here</div>
+        </div>
+        <div class="body">
+            <input type="text" id="todo_input" />
+            <input type="submit" onclick="newElement()" value="Add item" id="todo_submit"/>
+            <p style="color: red; display: none;" id="error">Invalid Input!</p>
+        </div>
+        
+    </div>
+
+    <!-- todo -->
+    <div class="todo-container">
+        <div class="list_todo" id="input_status">
+            <h1>Added items</h1>
+            <span class="adarsh"></span>
+            <div class="todo">
+
+            </div>
+
+        </div>
+
+        <div class="complete_todo">
+            <h1 style="text-decoration: underline;" ">Completed</h1>
+
+        </div>
+        <div class="delete_todo " style="padding-left: 5rem;; ">
+            <h1 style="text-decoration: underline; ">Deleted</h1>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js "></script>
+
+</body>
+
+
+</html>
